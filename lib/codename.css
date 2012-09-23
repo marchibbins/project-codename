@@ -5,7 +5,7 @@ html {
 body {
     width: 460px;
     margin: 0 auto;
-    padding: 5% 0;
+    padding: 4% 0;
     font-family: "Noticia Text", serif;
     font-size: 14px;
     line-height: 18px;
@@ -36,10 +36,15 @@ a {
     text-shadow: 1px 2px #ccc;
 }
 
-.link {
+.who {
     display: inline-block;
     margin-bottom: 0.5em;
     font-size: 1.5em;
+}
+
+.link {
+    display: inline-block;
+    margin-bottom: 2em;
 }
 
 .reload {
@@ -57,4 +62,8 @@ a {
 
 .source:hover {
     text-decoration: underline;
+}
+
+.hide {
+    opacity: 0;
 }
