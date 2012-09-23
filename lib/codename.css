@@ -48,6 +48,16 @@ a {
     border-bottom: 1px solid #5a7a88;
 }
 
+.source {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+}
+
+.source:hover {
+    text-decoration: underline;
+}
+
 .gradient {
     background: #fefefe;
     background: -moz-linear-gradient(top, #efefef 0%, #fefefe 10%, #fefefe 100%);
