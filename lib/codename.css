@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    min-width: 420px;
-    margin-top: 5%;
+    width: 460px;
+    margin: 0 auto;
+    padding: 5% 0;
     font-family: "Noticia Text", serif;
     font-size: 14px;
     line-height: 18px;
@@ -49,21 +50,11 @@ a {
 }
 
 .source {
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
+    display: block;
+    margin-top: 2em;
+    color: #999;
 }
 
 .source:hover {
     text-decoration: underline;
-}
-
-.gradient {
-    background: #fefefe;
-    background: -moz-linear-gradient(top, #efefef 0%, #fefefe 10%, #fefefe 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(10%, #fefefe), color-stop(100%, #fefefe));
-    background: -webkit-linear-gradient(top, #efefef 0%, #fefefe 10%, #fefefe 100%);
-    background: -o-linear-gradient(top, #efefef 0%, #fefefe 10%, #fefefe 100%);
-    background: -ms-linear-gradient(top, #efefef 0%, #fefefe 10%, #fefefe 100%);
-    background: linear-gradient(to bottom, #efefef 0%, #fefefe 10%, #fefefe 100%);
 }
